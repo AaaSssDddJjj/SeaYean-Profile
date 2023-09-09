@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+#navbarNav{
+    font-weight: 700;
+}
+
+#section{
+    margin: 6rem 0;
+}
+
+.navbar .navbar-brand{
+    font-weight: 700;
+}
+
+#profile img{
+    width: 80%;
+    border-radius: 50px ; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#profile h2{
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+#profile p{
+    line-height: 1.5;
+}
+
+#profile h3{
+    font-weight: 700;
+    opacity: .7;
+}
+
+#about-me h3{
+    font-weight: 700;
+    font-size: 2.5rem;
+    opacity: .8;
+}
+
+.Social-link{
+    margin-top: 1rem;
+    display: flex;
+}
+.Social-link .link-list{
+        width: 30px;
+        height: 30px;
+        background-color:gray;
+        border-radius: 50%;
+        margin-left: 0.7rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.facebook{
+    width: 30px;
+    height: 30px;
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+}
+.education-title{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+#Education p{
+    line-height: 0.8rem;
+}
+#Education .education-major{
+    opacity: .5;
+    font-size: 1rem;
+    font-style: italic;
+}
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 768px) {
+    #Picture h2{
+        font-size: 2.7rem;
+    }
+    section{
+        margin: 2rem 0;
+    }
+    #Picture img{
+        margin-bottom: 2rem;
+    }
+    #hey button{
+        display: none;
+    }
+    #contact iframe{
+        margin-top: 2rem;
+    }
+  }
+  .carousel-item img{
+    height: 200px;
+    width: 100px;
+  }
